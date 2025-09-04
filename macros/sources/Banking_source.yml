@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: banking_data
+    database: BANKING_DB  # optional, if different from profile default
+    schema: BANING_DETAILS
+    tables:
+      - name: DIM_ACCOUNT
+      - name: DIM_ATM
+      - name: DIM_BRANCH
+      - name: DIM_CARD
+      - name: DIM_CUSTOMER
+      - name: DIM_EMPLOYEE
+      - name: EVENTS_TABLE
+      - name: FACT_AUDIT_LOG
+      - name: FACT_CREDIT_SCORE
+      - name: FACT_INSURANCE
+      - name: FACT_LOAN
+      - name: FACT_PAYMENT
+      - name: FACT_TRANSACTION
